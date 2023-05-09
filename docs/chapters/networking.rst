@@ -19,7 +19,7 @@ Please choose the option which is most appropriate for your environment.
 
 First a few notes.  Bastille tries to verify that the interface name you provide is a valid
 interface. In FreeBSD network interfaces have different names, but look something like
-`em0`, `bge0`, `re0`,  `vtnet0` etc. Running the ifconfig commend will tell you the name
+`em0`, `bge0`, `re0`,  `vtnet0` etc. Running the ifconfig command will tell you the name
 of your existing interfaces. Bastille also checks for a valid syntax IP4 or IP6 address.    
 When you are testing calling out from your containers,  please note that the ping command is disabled within the containers, because raw socket access are a security hole.  Instead I install and test with wget instead. 
 
